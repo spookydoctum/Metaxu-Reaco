@@ -2,3 +2,52 @@ body{
 	background-color: black;
 	color: white;
 }
+
+h1
+{
+	font-size: 3.5em;
+}
+
+#master
+{
+	height: 400vh;
+}
+
+#sidething
+{
+	height: 400vh;
+	background-color: white;
+	color: black;
+}
+
+#hookvideo
+{
+	background-image: url("https://placekitten.com/1900/800");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 80vh;
+}
+
+h2
+{
+	font-size: 1.2em;
+	margin-top:0;
+}
+
+#temp
+{
+	background-color: #FF0000;
+}
+#heyfautscroll
+{
+	text-align: center;
+	height: 20vh;
+}
+
+#geddanicon
+{
+	height: 50%;
+	margin-top: 2%;
+	margin-bottom: 0;
+}
