@@ -20,34 +20,90 @@ h1
 	color: black;
 }
 
+#geddanicon
+{
+	font-weight: 3em;
+	margin-top: 2%;
+	margin-bottom: 0%;
+	padding: none
+}
+
 #hookvideo
 {
 	background-image: url("https://placekitten.com/1900/800");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 80vh;
+	height: 85vh;
 }
 
 h2
 {
 	font-size: 1.2em;
-	margin-top:0;
+	margin-top: 0;
 }
 
-#temp
+#headerGroupes
 {
-	background-color: #FF0000;
+	min-height:10vh;
+	font-size: 2em;
 }
+
 #heyfautscroll
 {
 	text-align: center;
-	height: 20vh;
+	height: 15vh;
 }
 
-#geddanicon
+#Xplication
 {
-	height: 50%;
-	margin-top: 2%;
-	margin-bottom: 0;
+	background-color: #FF0000;
+	min-height: 100vh;
+}
+
+#Groupes
+{	
+	background-color: #00FF00;
+	min-height: 100vh;
+}
+
+.material-icons
+{
+	font-size:3em;
+}
+
+#LiensGroupes
+{
+	min-height:90vh;
+	margin-top: 10vh;
+	padding: auto;
+}
+
+.liencool
+{
+	background-image: url("https://placekitten.com/500/500");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: coVER;
+	text-align: center;
+	margin: 5px 5px 5px 5px;
+}
+
+.imageborder
+{
+	border: 3px solid black;
+	border-radius: 5px;
+}
+
+.liencool p
+{
+	color: white;
+	text-align: center;
+	font-size: 2.8em;
+}
+
+#info
+{
+	background-color: #0000FF;
+	min-height: 100vh;
 }
