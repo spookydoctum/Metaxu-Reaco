@@ -19,24 +19,34 @@
 		
 		<!-- Notre CSS/Javascript -->
 		<link type="text/css" rel="stylesheet" href="./styles.css"  media="screen,projection"/>
+		
 	</head>
 	
 	<body>
 		<div class="row" id="master">
-			<div class="col m1 hide-on-small-only" id="sidething">
+			<!-- La sidebar -->
+			<div class="left col m1 hide-on-small-only" id="sidething">
 				<img src="https://placekitten.com/200/700" class="responsive-img">
 			</div>
+			
+			<!-- Premiere section avec nom expo et vidéo en background -->
 			<div class="col s 12 m11" id="hookvideo">
+				<div class="video-container">
+					<video autoplay loop muted playsinline id="video">
+						<source src="./Film-set.mp4" type="video/mp4" >Your browser does not support the video tag. I suggest you upgrade your browser.
+						<source src="./Film-set.webm" type="video/webm" >Your browser does not support the video tag. I suggest you upgrade your browser.
+					</video>
+				</div>
 				<h1>Les petites mécaniques - installations artistiques</h1>
 			</div>
 			
 			<div class="col s12 m11 center-align" id="heyfautscroll">
 				<i class="material-icons" id="geddanicon">details</i>
-				<p>Hey faut aller en bas banane</p>
+				<p>Défiler vers le bas</p>
 			</div>
 			
 			<div class="col s12 m11 valign-wrapper" id="Xplication">
-				<div class="col m3 offset-m1" id="XpliPic">
+				<div data-0="opacity:0;" data-500="opacity:1;" class="col m3 offset-m1" id="XpliPic">
 					<img src="https://placekitten.com/200/700" class="imageborder responsive-img">
 				</div>
 				
@@ -92,6 +102,13 @@
 		</div>    
 	
 	<!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	
+	<!-- Skroller, librairie pour le parallax -->
+	<script type="text/javascript" src="./skrollr.min.js"></script>
+	<script type="text/javascript">
+	var s = skrollr.init();
+	</script>
+	
 	</body>
 </html>

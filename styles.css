@@ -6,6 +6,11 @@ body{
 h1
 {
 	font-size: 3.5em;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 1;
+	z-index: 1;
 }
 
 #master
@@ -15,7 +20,7 @@ h1
 
 #sidething
 {
-	height: 400vh;
+	min-height: 420vh;
 	background-color: white;
 	color: black;
 }
@@ -28,13 +33,23 @@ h1
 	padding: none
 }
 
+#video
+{
+	overflow: hidden;
+	position: absolute;
+	width: auto;
+	height: auto;
+	min-width: 100%;
+	/*min-height: 85vh;*/
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: -50%;
+}
 #hookvideo
 {
-	background-image: url("https://placekitten.com/1900/800");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	height: 85vh;
+	overflow: hidden;
+	max-height: 85vh;
 }
 
 h2
@@ -57,7 +72,8 @@ h2
 
 #Xplication
 {
-	background-color: #FF0000;
+	border-top: 2px solid white;
+	/*background-color: #FF0000;*/
 	min-height: 100vh;
 }
 
@@ -69,7 +85,7 @@ h2
 
 .material-icons
 {
-	font-size:3em;
+	font-size:2.7em;
 }
 
 #LiensGroupes
@@ -84,7 +100,7 @@ h2
 	background-image: url("https://placekitten.com/500/500");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: coVER;
+	background-size: cover;
 	text-align: center;
 	margin: 5px 5px 5px 5px;
 }
