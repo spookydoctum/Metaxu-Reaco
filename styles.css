@@ -15,14 +15,20 @@ h1
 
 #master
 {
-	height: 400vh;
+	min-height: 400vh;
 }
 
 #sidething
 {
-	min-height: 420vh;
-	background-color: white;
+	min-height: 400vh;
 	color: black;
+	border-right: 1px solid white;
+}
+
+#partition
+{
+	height:105vh;
+	width: auto;
 }
 
 #geddanicon
@@ -32,6 +38,14 @@ h1
 	margin-bottom: 0%;
 	padding: none
 }
+.video-container {
+  /*position: absolute;*/
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 85vh; 
+  overflow: hidden;
+}
 
 #video
 {
@@ -39,7 +53,7 @@ h1
 	position: absolute;
 	width: auto;
 	height: auto;
-	min-width: 100%;
+	/*min-width: 50%;*/
 	/*min-height: 85vh;*/
 	top: 50%;
 	left: 50%;
@@ -49,7 +63,7 @@ h1
 #hookvideo
 {
 	overflow: hidden;
-	max-height: 85vh;
+	height: 85vh;
 }
 
 h2

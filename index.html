@@ -25,14 +25,14 @@
 	<body>
 		<div class="row" id="master">
 			<!-- La sidebar -->
-			<div class="left col m1 hide-on-small-only" id="sidething">
-				<img src="https://placekitten.com/200/700" class="responsive-img">
+			<div class="left col m1 hide-on-small-only center-align" id="sidething">
+				<img data-start="transform:translate(0px,-100%);" data-end="transform:translate(0px,300vh);" src="./partition.png" class="responsive-img" id="partition">
 			</div>
 			
 			<!-- Premiere section avec nom expo et vidéo en background -->
-			<div class="col s 12 m11" id="hookvideo">
+			<div class="col s12 m11" id="hookvideo">
 				<div class="video-container">
-					<video autoplay loop muted playsinline id="video">
+					<video autoplay loop muted playsinline height="240" width="360" id="video">
 						<source src="./Film-set.mp4" type="video/mp4" >Your browser does not support the video tag. I suggest you upgrade your browser.
 						<source src="./Film-set.webm" type="video/webm" >Your browser does not support the video tag. I suggest you upgrade your browser.
 					</video>
@@ -40,17 +40,19 @@
 				<h1>Les petites mécaniques - installations artistiques</h1>
 			</div>
 			
+			<!-- Machin pour dire qu'il faut défiler -->
 			<div class="col s12 m11 center-align" id="heyfautscroll">
 				<i class="material-icons" id="geddanicon">details</i>
 				<p>Défiler vers le bas</p>
 			</div>
 			
+			<!-- Deuxieme section avec petite présentation générale -->
 			<div class="col s12 m11 valign-wrapper" id="Xplication">
-				<div data-0="opacity:0;" data-500="opacity:1;" class="col m3 offset-m1" id="XpliPic">
+				<div data-0="opacity:0;" data-700="opacity:1;" class="col m3 offset-m1" id="XpliPic">
 					<img src="https://placekitten.com/200/700" class="imageborder responsive-img">
 				</div>
 				
-				<div class="col m5 center-align offset-m1" id="XpliTxt">
+				<div class="col m6 center-align offset-m1" id="XpliTxt">
 					<p>Les petites mécaniques c'est l'aboutisement du travail d'étudiants en Master 1 de l'UFR INGEMEDIA de Toulon. Répartis en quatre groupes, les étudiants ont eu une année pour réaliser cette exposition d'art autour de la boîte à musique.</p> 
 
 					<p>Il s'agit d'un projet visuel et sonore mettant en avant des "boîtes à musique augmentées" qui intergissent avec le spectateur. Chaque boîte à musique produit de la musique, de l'image, un jeu de lumière ou de la video afin de créer des installations entièrement immersives.</p>
@@ -60,6 +62,7 @@
 				
 			</div>
 			
+			<!-- Liens pour découvrir les groupes -->
 			<div class="col s12 m11 center-align" id="Groupes">
 				<div class="" id="headerGroupes">
 					<p>Cliquez pour découvrir les thèmes<p>
@@ -88,6 +91,7 @@
 				</div>
 			</div>
 			
+			<!-- Liens FB Metaxu/Ingémédia/plus d'infos -->
 			<div class="col s12 m11 center-align valign-wrapper" id="info">
 				<div class="col m3 offset-m1 s10 offset-s1">
 					<p>Vernissage le 18/18/18/18 au Metaxu, Toulon</p>
