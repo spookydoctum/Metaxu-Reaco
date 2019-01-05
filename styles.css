@@ -86,14 +86,28 @@ h2
 	height: 15vh;
 }
 
+.sectionBorder
+{
+	border-top: 5px solid white;
+}
+
 #Xplication
 {
-	border-top: 2px solid white;
 	min-height: 100vh;
+	background-image: url("./img/image2.jpg");
+	background-opacity:0.2;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 #Groupes
 {
+	min-height: 100vh;
+	background-image: url("./img/image5.jpg");
+	background-opacity:0.2;
+	background-repeat: no-repeat;
+	background-position: center;
 	min-height: 100vh;
 }
 
@@ -109,9 +123,14 @@ h2
 	padding: auto;
 }
 
+#sampleLien
+{
+	background-image: url("./img/imageSampleCrop.jpg");
+}
+
 .liencool
 {
-	background-image: url("https://placekitten.com/500/500");
+	background-image: url("./img/imageSampleCrop.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -127,6 +146,7 @@ h2
 
 .liencool p
 {
+	opacity:1;
 	color: white;
 	text-align: center;
 	font-size: 2.3em;
@@ -134,5 +154,10 @@ h2
 
 #info
 {
+	min-height: 100vh;
+	background-image: url("./img/image1.jpg");
+	background-opacity:0.2;
+	background-repeat: no-repeat;
+	background-position: center;
 	min-height: 100vh;
 }
