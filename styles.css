@@ -4,10 +4,17 @@ body{
 	font-family: 'Montserrat', 'Century Gothic', sans-serif;
 }
 
-h1
+.titleFont
 {
 	font-family: 'Major Mono Display', monospace;
+}
+
+h1
+{
 	font-size: 3.5em;
+}
+#titleText
+{
 	box-sizing: border-box;
 	position: absolute;
 	top: 0;
@@ -128,14 +135,29 @@ h2
 	background-image: url("./img/imageSampleCrop.jpg");
 }
 
+#FlammartLien
+{
+	background-image: url("./img/imageFlammartCrop.jpg");
+}
+
+#StazeLien
+{
+	background-image: url("http://placekitten.com/500/500");
+}
+
+#ExMachinaLien
+{
+	background-image: url("http://placekitten.com/500/500");
+}
+
 .liencool
 {
-	background-image: url("./img/imageSampleCrop.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	text-align: center;
 	margin: 5px 5px 5px 5px;
+	height: auto;
 }
 
 .imageborder
@@ -159,5 +181,17 @@ h2
 	background-opacity:0.2;
 	background-repeat: no-repeat;
 	background-position: center;
+	min-height: 100vh;
+}
+/* DEUXIEME PAGE PRESENTATION GROUPES */
+
+.GroupeXpli
+{
+	border-bottom: 5px solid white;
+}
+
+#Sample
+{
+	background-image: url("./img/image6.jpg");
 	min-height: 100vh;
 }
