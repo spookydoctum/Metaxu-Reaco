@@ -13,6 +13,7 @@ h1
 {
 	font-size: 3.5em;
 }
+
 #titleText
 {
 	box-sizing: border-box;
@@ -205,9 +206,40 @@ nav
 	min-height: 100vh;
 }
 
+#Flamaart
+{
+	background-image: url("./img/image2.jpg");
+	min-height: 100vh;
+}
+
+#Staze
+{
+	background-image: url("./img/image5.jpg");
+	min-height: 100vh;
+}
+
+#XMachina
+{
+	background-image: url("./img/image7.jpg");
+	min-height: 100vh;
+}
+
 #GroupMaster
 {
 	position:relative;
 	top: 10vh;
 	min-height: 400vh;
+}
+
+/*Smaller fonts for phones*/
+@media only screen and (max-width: 600px) 
+{
+	.navbarLien
+	{
+		font-size: 0.8em;
+	}
+	#titleText
+	{
+		font-size: 2.8em;
+	}
 }
