@@ -185,6 +185,15 @@ h2
 }
 /* DEUXIEME PAGE PRESENTATION GROUPES */
 
+nav
+{
+	position: fixed;
+    width: 100%;
+    z-index:99;
+    height: 10vh;
+    background: black;
+}
+
 .GroupeXpli
 {
 	border-bottom: 5px solid white;
@@ -194,4 +203,11 @@ h2
 {
 	background-image: url("./img/image6.jpg");
 	min-height: 100vh;
+}
+
+#GroupMaster
+{
+	position:relative;
+	top: 10vh;
+	min-height: 400vh;
 }
