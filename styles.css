@@ -42,15 +42,15 @@ h1
 #partition
 {
 	height:105vh;
-	width: auto;
+	width: 75%;
 }
 
 #geddanicon
 {
-	font-weight: 3em;
+	font-size: 5em;
 	margin-top: 2%;
 	margin-bottom: 0%;
-	padding: none
+	padding: none;
 }
 
 .video-container 
@@ -114,13 +114,14 @@ h2
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	text-align: justify;
 }
 
 #Groupes
 {
 	min-height: 100vh;
 	background-image: url("./img/image5.jpg");
-	background-opacity:0.2;
+	opacity:0.2;
 	background-repeat: no-repeat;
 	background-position: center;
 	min-height: 100vh;
