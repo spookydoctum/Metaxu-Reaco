@@ -151,7 +151,7 @@ h2
 
 #StazeLien
 {
-	background-image: url("http://placekitten.com/500/500");
+	background-image: url("./img/imageStaseCrop.jpg");
 }
 
 #ExMachinaLien
@@ -228,7 +228,7 @@ nav
 	min-height: 100vh;
 }
 
-#Staze
+#Stase
 {
 	background-image: url("./img/image5.jpg");
 	min-height: 100vh;
